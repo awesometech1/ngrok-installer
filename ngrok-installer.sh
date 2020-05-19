@@ -1,9 +1,12 @@
 clear
 echo "we are installing old version of ngrok"
 cd $HOME
+echo "SCRIPT IS WRITTEN BY ROHIT"
+echo "subscribe to Awesome Tech"
 pkg install wget -y
 wget --no-check-certificate https://bin.equinox.io/a/nmkK3DkqZEB/ngrok-2.2.8-linux-arm64.zip
 unzip ngrok-2.2.8-linux-arm64.zip
+echo "our website is coming soon for ethical hacking learner's"
 chmod +x ngrok
 rm -rf ngrok-2.2.8-linux-arm64.zip
 checkngrok=$(ps aux | grep -o "ngrok" | head -n1)
